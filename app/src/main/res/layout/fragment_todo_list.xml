@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/todo_list_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    app:cardBackgroundColor="@color/yellow"
+    cardView:cardBackgroundColor="@color/yellow"
+    android:transitionName="@string/todo_list_card_view_transition_name">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/todo_list_items_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:padding="8dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</android.support.v7.widget.CardView>
